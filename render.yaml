@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: 21reset-bot
+    env: python
+    envVersion: 3.10
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
